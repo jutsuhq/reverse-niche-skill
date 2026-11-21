@@ -121,6 +121,21 @@ From watching the videos the agent adds the hook in three layers (seen, read, he
 Browser extensions such as SortViral or Sort Feed are the fastest way to sort a profile you have open.
 reverse-niche starts where they stop: it explains why the outliers won and what to make next.
 
+### Other agent skills: ScrapeCreators and TubeLab
+
+| | reverse-niche | [ScrapeCreators skills](https://github.com/ScrapeCreators/social-media-research-skills) | [TubeLab skills](https://github.com/TubeLabHQ/youtube-research-skills) |
+|---|---|---|---|
+| Platforms | TikTok, YouTube, YouTube Shorts, Twitch | TikTok, Instagram, YouTube, Reddit, X, LinkedIn, Facebook, Threads and more | YouTube |
+| Needs | `yt-dlp` and `ffmpeg` | a ScrapeCreators API key (paid credits) | a TubeLab account and its MCP server (searches cost credits) |
+| Data source | public pages, fetched on your machine | ScrapeCreators API | TubeLab database |
+| Outlier ratio against the channel baseline | yes | yes | yes |
+| Reads the video itself | contact sheets of frames, cuts, first 15 s transcript | transcripts | transcripts and thumbnails |
+| Format fatigue and hit rate | yes | not documented | not documented |
+| Scope | one job: a niche teardown and a better design | many skills: comments, ads, transcripts, competitor teardowns | many skills: niche finding, thumbnails, sponsors, monetization risk |
+
+Pick ScrapeCreators for Instagram, X or ad libraries, and TubeLab for searching across all of YouTube for new niches.
+Pick reverse-niche when you already know the channels and want a free, local teardown of TikTok or Shorts.
+
 ## FAQ
 
 **How do I find outlier videos on a competitor's TikTok account for free?**
@@ -145,6 +160,9 @@ No. Those numbers are visible only to the channel owner. The skill never estimat
 
 **Do I need vidIQ, TubeLab or another paid account?**
 No. It uses public data through yt-dlp.
+
+**How is it different from ScrapeCreators or TubeLab skills?**
+Both are agent skill sets built on a paid data API: ScrapeCreators covers many social networks, TubeLab covers YouTube with its own database. reverse-niche needs no key or account, fetches public data on your machine, and watches the videos as frame sheets. See [the comparison](#other-agent-skills-scrapecreators-and-tubelab).
 
 **Will it copy my competitor?**
 No. It keeps what makes the genre recognisable and designs an original version. It never copies names, characters, logos or scripts.
